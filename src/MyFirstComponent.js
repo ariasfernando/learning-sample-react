@@ -1,8 +1,13 @@
 import React from 'react';
 
+const styles = {
+  color: "maroon",
+  backgroundColor: "white"
+};
+
 function MyFirstComponent() {
   return (
-    <p>Hello World!</p>
+    <p style={styles}>Hello World!</p>
   );
 }
 
